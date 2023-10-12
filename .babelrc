@@ -1,0 +1,19 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "useBuiltIns": "usage",
+      "corejs": 3
+    }],
+    "@babel/preset-react",
+    "@emotion/babel-preset-css-prop"
+  ],
+  "plugins": [
+    ["emotion"],
+    [
+      "react-intl",
+      {
+        "messagesDir": "./build/messages/"
+      }
+    ]
+  ]
+}

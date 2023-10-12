@@ -1,0 +1,592 @@
+[
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Your order was changed",
+        "id": "ApprovalRequired.title"
+      },
+      {
+        "defaultMessage": "Your order was updated after the diagnostics were completed. Before we can go ahead we need your approval.",
+        "id": "ApprovalRequired.description"
+      },
+      {
+        "defaultMessage": "Amount difference: {diff} €",
+        "id": "ApprovalRequired.diff"
+      },
+      {
+        "defaultMessage": "Please note that the added service is considered to be necessary to complete the repair. If you do not accept we will send your device back.",
+        "id": "ApprovalRequired.notice"
+      },
+      {
+        "defaultMessage": "Submitting ...",
+        "id": "ApprovalRequired.submitting"
+      },
+      {
+        "defaultMessage": "Accept changes",
+        "id": "ApprovalRequired.accept"
+      },
+      {
+        "defaultMessage": "Reject and cancel order",
+        "id": "ApprovalRequired.reject"
+      }
+    ],
+    "path": "src/components/ApprovalRequired.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Select device",
+        "id": "DevicePanel.title"
+      }
+    ],
+    "path": "src/components/DevicePanel.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "An extra payment is required to proceed with the order.",
+        "id": "ExtraPayment.description"
+      }
+    ],
+    "path": "src/components/ExtraPayment.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Select product family",
+        "id": "FamilyPanel.title"
+      }
+    ],
+    "path": "src/components/FamilyPanel.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Order received",
+        "id": "GenericOrderStatus.paid.title"
+      },
+      {
+        "defaultMessage": "Your order has been received.",
+        "id": "GenericOrderStatus.paid.description"
+      },
+      {
+        "defaultMessage": "Order assigned",
+        "id": "GenericOrderStatus.assigned-to-shop.title"
+      },
+      {
+        "defaultMessage": "Your device has been assigned to the closest repair shop and will be picked up shortly.",
+        "id": "GenericOrderStatus.assigned-to-shop.description"
+      },
+      {
+        "defaultMessage": "Transport on its way",
+        "id": "GenericOrderStatus.transport-to-shop-requested.title"
+      },
+      {
+        "defaultMessage": "Transport is on its way to pick up the device!",
+        "id": "GenericOrderStatus.transport-to-shop-requested.description"
+      },
+      {
+        "defaultMessage": "En route",
+        "id": "GenericOrderStatus.transport-to-shop-picked-up.title"
+      },
+      {
+        "defaultMessage": "Your device is on its way to the repair shop!",
+        "id": "GenericOrderStatus.transport-to-shop-picked-up.description"
+      },
+      {
+        "defaultMessage": "Arrived at shop",
+        "id": "GenericOrderStatus.transport-to-shop-delivered.title"
+      },
+      {
+        "defaultMessage": "Your device has been delivered to the repair shop!",
+        "id": "GenericOrderStatus.transport-to-shop-delivered.description"
+      },
+      {
+        "defaultMessage": "Diagnostics",
+        "id": "GenericOrderStatus.requires-review.title"
+      },
+      {
+        "defaultMessage": "Your device is going through diagnostics at the repair shop!",
+        "id": "GenericOrderStatus.requires-review.description"
+      },
+      {
+        "defaultMessage": "Reparation started",
+        "id": "GenericOrderStatus.ready-for-repair.title"
+      },
+      {
+        "defaultMessage": "Your device is being repaired!",
+        "id": "GenericOrderStatus.ready-for-repair.description"
+      },
+      {
+        "defaultMessage": "Repair done",
+        "id": "GenericOrderStatus.repaired.title"
+      },
+      {
+        "defaultMessage": "Your device has been repaired and is waiting to be picked up!",
+        "id": "GenericOrderStatus.repaired.description"
+      },
+      {
+        "defaultMessage": "En route",
+        "id": "GenericOrderStatus.transport-to-customer-picked-up.title"
+      },
+      {
+        "defaultMessage": "Your device has been picked up and is on its way back!",
+        "id": "GenericOrderStatus.transport-to-customer-picked-up.description"
+      },
+      {
+        "defaultMessage": "Delivered",
+        "id": "GenericOrderStatus.transport-to-customer-delivered.title"
+      },
+      {
+        "defaultMessage": "Your device has been repaired and delivered!",
+        "id": "GenericOrderStatus.transport-to-customer-delivered.description"
+      },
+      {
+        "defaultMessage": "Rejected",
+        "id": "GenericOrderStatus.rejected.title"
+      },
+      {
+        "defaultMessage": "Order change rejected. Your device will be returned to you.",
+        "id": "GenericOrderStatus.rejected.description"
+      },
+      {
+        "defaultMessage": "No description",
+        "id": "GenericOrderStatus.default.description"
+      }
+    ],
+    "path": "src/components/GenericOrderStatus.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "First name",
+        "id": "LocationPanel.form.label.firstName"
+      },
+      {
+        "defaultMessage": "Last name",
+        "id": "LocationPanel.form.label.lastName"
+      },
+      {
+        "defaultMessage": "Street",
+        "id": "LocationPanel.form.label.address"
+      },
+      {
+        "defaultMessage": "City",
+        "id": "LocationPanel.form.label.city"
+      },
+      {
+        "defaultMessage": "Region",
+        "id": "LocationPanel.form.label.region"
+      },
+      {
+        "defaultMessage": "Postal code",
+        "id": "LocationPanel.form.label.postalCode"
+      },
+      {
+        "defaultMessage": "Email",
+        "id": "LocationPanel.form.label.email"
+      },
+      {
+        "defaultMessage": "Please check the box if you wish to opt-in for occasional email marketing communications from demo1. Your data will be stored securely and will not be handed to any third parties. You can unsubscribe at any time.",
+        "id": "MarketingBox.text"
+      },
+      {
+        "defaultMessage": "Phone number",
+        "id": "LocationPanel.form.label.phone"
+      },
+      {
+        "defaultMessage": "Device unlock code",
+        "id": "LocationPanel.form.label.unlockCode"
+      },
+      {
+        "defaultMessage": "Back",
+        "id": "general.back"
+      },
+      {
+        "defaultMessage": "Next",
+        "id": "general.next"
+      }
+    ],
+    "path": "src/components/LocationPanel.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Please check the box if you wish to opt-in for occasional email marketing communications from demo1. Your data will be stored securely and will not be handed to any third parties. You can unsubscribe at any time.",
+        "id": "MarketingBox.text"
+      }
+    ],
+    "path": "src/components/MarketingBox.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Brand",
+        "id": "OrderDetail.brand"
+      },
+      {
+        "defaultMessage": "Device",
+        "id": "OrderDetail.device"
+      },
+      {
+        "defaultMessage": "Total",
+        "id": "OrderDetail.total"
+      }
+    ],
+    "path": "src/components/OrderDetail.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Order status",
+        "id": "OrderStatus.title"
+      }
+    ],
+    "path": "src/components/OrderStatus.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Order id",
+        "id": "OrderSummary.orderId"
+      },
+      {
+        "defaultMessage": "Brand",
+        "id": "OrderSummary.brand"
+      },
+      {
+        "defaultMessage": "Device",
+        "id": "OrderSummary.device"
+      },
+      {
+        "defaultMessage": " percent discount",
+        "id": "OrderSummary.discountPercent"
+      },
+      {
+        "defaultMessage": " discount",
+        "id": "OrderSummary.discountAmount"
+      },
+      {
+        "defaultMessage": "Shipment fee",
+        "id": "OrderSummary.shipmentFee"
+      },
+      {
+        "defaultMessage": "Total before VAT",
+        "id": "OrderSummary.totalBeforeVAT"
+      },
+      {
+        "defaultMessage": "VAT incl",
+        "id": "OrderSummary.VATIncl"
+      },
+      {
+        "defaultMessage": "Total",
+        "id": "OrderSummary.total"
+      }
+    ],
+    "path": "src/components/OrderSummary.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Loading ...",
+        "id": "general.loading"
+      },
+      {
+        "defaultMessage": "Your order has been completed! You will receive a confirmation email with your order details.",
+        "id": "PaymentForm.title"
+      },
+      {
+        "defaultMessage": "Expiration",
+        "id": "PaymentForm.form.expiration"
+      },
+      {
+        "defaultMessage": "Security code (CVC)",
+        "id": "PaymentForm.form.securityCode"
+      },
+      {
+        "defaultMessage": "Postal code",
+        "id": "PaymentForm.form.postalCode"
+      },
+      {
+        "defaultMessage": "Pay",
+        "id": "PaymentForm.form.pay"
+      }
+    ],
+    "path": "src/components/PaymentForm.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Payment",
+        "id": "PaymentPanel.groupName"
+      }
+    ],
+    "path": "src/components/PaymentPanel.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Vi finns för närvarande i Stockholm.",
+        "id": "LocationPanel.form.label.deliveryInfo"
+      },
+      {
+        "defaultMessage": "Sorry! demo1 is expanding fast but have not yet reached your service area. If you wish us to notify you, when we do please click {subscribeLink}.",
+        "id": "PostalCodePanel.notice"
+      },
+      {
+        "defaultMessage": "here",
+        "id": "PostalCodePanel.subscribe"
+      },
+      {
+        "defaultMessage": "Enter postal code",
+        "id": "PostalCodePanel.placeholder.postalCode"
+      },
+      {
+        "defaultMessage": "Next",
+        "id": "general.next"
+      }
+    ],
+    "path": "src/components/PostalCodePanel.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Brand",
+        "id": "QuotePanel.brand"
+      },
+      {
+        "defaultMessage": "Device",
+        "id": "QuotePanel.device"
+      }
+    ],
+    "path": "src/components/QuotePanel.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Select repairs",
+        "id": "RepairsPanel.title"
+      }
+    ],
+    "path": "src/components/RepairsPanel.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Apply",
+        "id": "general.apply"
+      },
+      {
+        "defaultMessage": "Network error. Try again later.",
+        "id": "ReviewPanel.form.promoError.network"
+      },
+      {
+        "defaultMessage": "Promotional code not valid.",
+        "id": "ReviewPanel.form.promoError.validity"
+      },
+      {
+        "defaultMessage": "Back",
+        "id": "general.back"
+      }
+    ],
+    "path": "src/components/ReviewPanel.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "No icon",
+        "id": "SelectPanel.noIcon"
+      },
+      {
+        "defaultMessage": "Additional information here",
+        "id": "SelectPanel.urlMessage"
+      },
+      {
+        "defaultMessage": "No choices available for this configuration.",
+        "id": "SelectPanel.noChoices"
+      },
+      {
+        "defaultMessage": "Back",
+        "id": "general.back"
+      },
+      {
+        "defaultMessage": "Next",
+        "id": "general.next"
+      }
+    ],
+    "path": "src/components/SelectPanel.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Show more",
+        "id": "SlotPanel.showMore"
+      },
+      {
+        "defaultMessage": "I do not have access to a printer (may affect pick up times).",
+        "id": "SlotPanel.noPrinter"
+      },
+      {
+        "defaultMessage": "Back",
+        "id": "general.back"
+      },
+      {
+        "defaultMessage": "Next",
+        "id": "general.next"
+      }
+    ],
+    "path": "src/components/SlotPanel.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Step {currentStep} of {stepCount}",
+        "id": "StepHeader.header.stepProgress"
+      }
+    ],
+    "path": "src/components/StepHeader.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "I agree to the {tosLink} and {ppLink}.",
+        "id": "TosBox.text"
+      },
+      {
+        "defaultMessage": "Terms of Service",
+        "id": "TosBox.tosText"
+      },
+      {
+        "defaultMessage": "Privacy Policy",
+        "id": "TosBox.ppText"
+      }
+    ],
+    "path": "src/components/TosBox.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Select postal code",
+        "id": "Wizard.stepTitle.postalCode"
+      },
+      {
+        "defaultMessage": "Select brand",
+        "id": "Wizard.stepTitle.brand"
+      },
+      {
+        "defaultMessage": "Select product family",
+        "id": "Wizard.stepTitle.family"
+      },
+      {
+        "defaultMessage": "Select device",
+        "id": "Wizard.stepTitle.device"
+      },
+      {
+        "defaultMessage": "Select issues",
+        "id": "Wizard.stepTitle.issues"
+      },
+      {
+        "defaultMessage": "Select addons",
+        "id": "Wizard.stepTitle.addons"
+      },
+      {
+        "defaultMessage": "Review order",
+        "id": "Wizard.stepTitle.quote"
+      },
+      {
+        "defaultMessage": "Pick up information",
+        "id": "Wizard.stepTitle.location"
+      },
+      {
+        "defaultMessage": "Pick a slot",
+        "id": "Wizard.stepTitle.slot"
+      }
+    ],
+    "path": "src/components/Wizard.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Service area",
+        "id": "Steps.groups.area"
+      },
+      {
+        "defaultMessage": "Device",
+        "id": "Steps.groups.device"
+      },
+      {
+        "defaultMessage": "Services",
+        "id": "Steps.groups.services"
+      },
+      {
+        "defaultMessage": "Review",
+        "id": "Steps.groups.review"
+      },
+      {
+        "defaultMessage": "Pick up",
+        "id": "Steps.groups.location"
+      },
+      {
+        "defaultMessage": "Let's repair your phone or tablet",
+        "id": "Steps.steps.postalCode.title"
+      },
+      {
+        "defaultMessage": "Fill in the form to get an instant quote. Let's start with your postal code.",
+        "id": "Steps.steps.postalCode.description"
+      },
+      {
+        "defaultMessage": "Brand?",
+        "id": "Steps.steps.brand.title"
+      },
+      {
+        "defaultMessage": "Please select brand of mobile device",
+        "id": "Steps.steps.brand.description"
+      },
+      {
+        "defaultMessage": "Type?",
+        "id": "Steps.steps.family.title"
+      },
+      {
+        "defaultMessage": "Please select type of mobile device",
+        "id": "Steps.steps.family.description"
+      },
+      {
+        "defaultMessage": "Model?",
+        "id": "Steps.steps.device.title"
+      },
+      {
+        "defaultMessage": "Please select the model",
+        "id": "Steps.steps.device.description"
+      },
+      {
+        "defaultMessage": "Service option?",
+        "id": "Steps.steps.issues.title"
+      },
+      {
+        "defaultMessage": "If unclear, select \"Problem Unknown!\" for free diagnostic option. Our Technical Support team will get back to you.",
+        "id": "Steps.steps.issues.description"
+      },
+      {
+        "defaultMessage": "Add-ons",
+        "id": "Steps.steps.addons.title"
+      },
+      {
+        "defaultMessage": "You might want to consider some popular add‑ons & accessories for your model.",
+        "id": "Steps.steps.addons.description"
+      },
+      {
+        "defaultMessage": "Personal & Pick Up information",
+        "id": "Steps.steps.location.title"
+      },
+      {
+        "defaultMessage": "Select a time for pick up",
+        "id": "Steps.steps.slot.title"
+      },
+      {
+        "defaultMessage": "Review your order",
+        "id": "Steps.steps.review.title"
+      }
+    ],
+    "path": "src/steps.json"
+  }
+]
